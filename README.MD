@@ -84,3 +84,41 @@
 	  (use "git reset HEAD <file>..." to unstage)
 
 	        modified:   resources/functions.php
+
+## 6. Create products table and added some entries
+
+	CREATE TABLE `products` (
+		`product_id` int(11) NOT NULL AUTO_INCREMENT,
+		`product_title` varchar(255) NOT NULL,
+		`product_category_id` int(11) NOT NULL,
+		`product_price` float NOT NULL,
+		`product_quantity` int(11) NOT NULL,
+		`product_description` text NOT NULL,
+		`short_desc` text NOT NULL,
+		`product_image` varchar(255) NOT NULL,
+		PRIMARY KEY (`product_id`)
+	);
+
+	mysql> DESC products  ;
+	+---------------------+--------------+------+-----+---------+----------------+
+	| Field               | Type         | Null | Key | Default | Extra          |
+	+---------------------+--------------+------+-----+---------+----------------+
+	| product_id          | int(11)      | NO   | PRI | NULL    | auto_increment |
+	| product_title       | varchar(255) | NO   |     | NULL    |                |
+	| product_category_id | int(11)      | NO   |     | NULL    |                |
+	| product_price       | float        | NO   |     | NULL    |                |
+	| product_quantity    | int(11)      | NO   |     | NULL    |                |
+	| product_description | text         | NO   |     | NULL    |                |
+	| short_desc          | text         | NO   |     | NULL    |                |
+	| product_image       | varchar(255) | NO   |     | NULL    |                |
+	+---------------------+--------------+------+-----+---------+----------------+
+	8 rows in set (0.00 sec)
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
