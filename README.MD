@@ -215,3 +215,16 @@
 	        modified:   resources/config.php
 	        new file:   resources/database.php
 	        modified:   resources/templates/front/detail-components/image.php
+
+## 13. Re-modifying the codes Using Procedural style
+
+λ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   resources/templates/front/common/categories.php
+        modified:   resources/templates/front/detail-components/image.php
+        modified:   resources/templates/front/home-components/main_content.php
