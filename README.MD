@@ -150,3 +150,15 @@
 	        modified:   public/index.php
 	        modified:   resources/functions.php
 	        modified:   resources/templates/front/main_content.php
+
+## 9. Rendering page detail/item
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
+	        modified:   resources/functions.php
