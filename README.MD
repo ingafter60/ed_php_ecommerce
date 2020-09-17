@@ -64,5 +64,23 @@
 
 ## 4. Rendering categories items from the db to the homepage
 
-	modified:   README.MD
-   modified:   resources/templates/front/categories.php
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
+	        modified:   resources/templates/front/categories.php
+
+## 5. Create custom helper functions
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   resources/functions.php
