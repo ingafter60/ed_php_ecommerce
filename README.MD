@@ -17,3 +17,21 @@
 	 		  ....	
 	        new file:   resources/config.php
 	        new file:   resources/functions.php
+
+## 2. Template inheritance for index page
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   public/index.php
+	        new file:   resources/templates/front/categories.php
+	        new file:   resources/templates/front/footer.php
+	        new file:   resources/templates/front/head.php
+	        new file:   resources/templates/front/main_content.php
+	        new file:   resources/templates/front/navbar.php
+	        new file:   resources/templates/front/scripts.php
+	        new file:   resources/templates/front/sliders.php
