@@ -33,7 +33,7 @@ function fetch_array($result) {
 }
 
 
-// =============== GET PRODUCTS FUNCTIONS ================
+// =============== FRONTEND FUNCTIONS ================
 
 // Get products
 function get_products() {
@@ -49,7 +49,9 @@ function get_products() {
 			      </a>	
 			      <div class="caption">
 			         <h4 class="pull-right">&#36; {$row['product_price']}</h4>
-			         <h4><a href="#">{$row['product_title']}</a>
+			         <h4>
+			         	<a href="item.php?id={$row['product_id']}">
+			         		{$row['product_title']}</a>
 			         </h4>
 			         <p>See more snippets like this online store item at
 			         	<a target="_blank" 
@@ -68,8 +70,6 @@ echo $product;
 	}
 }
 
-// =============== GET CATEGORY FUNCTIONS ================
-
 // Get category
 function get_categories() {
 	$query = query("SELECT * FROM categories");
@@ -85,3 +85,6 @@ echo $categories_links;
 
     }
 }
+
+
+// =============== BACKEND FUNCTIONS ================

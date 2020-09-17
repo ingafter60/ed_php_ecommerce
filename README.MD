@@ -176,3 +176,28 @@
 	        modified:   README.MD
 	        modified:   resources/functions.php
 	        modified:   resources/templates/front/categories.php
+
+## 11. Spliting home and detail pages to components and common
+
+	λ git status
+	On branch master
+	Your branch is ahead of 'origin/master' by 2 commits.
+	  (use "git push" to publish your local commits)
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
+	        modified:   public/index.php
+	        modified:   public/item.php
+	        modified:   resources/config.php
+	        modified:   resources/functions.php
+	        renamed:    resources/templates/front/categories.php -> resources/templates/front/common/categories.php
+	        renamed:    resources/templates/front/footer.php -> resources/templates/front/common/footer.php
+	        renamed:    resources/templates/front/head.php -> resources/templates/front/common/head.php
+	        renamed:    resources/templates/front/navbar.php -> resources/templates/front/common/navbar.php
+	        renamed:    resources/templates/front/scripts.php -> resources/templates/front/common/scripts.php
+	        new file:   resources/templates/front/detail-components/image.php
+	        new file:   resources/templates/front/detail-components/tab-panel.php
+	        renamed:    resources/templates/front/main_content.php -> resources/templates/front/home-components/main_content.php
+	        renamed:    resources/templates/front/sliders.php -> resources/templates/front/home-components/sliders.php
