@@ -201,3 +201,17 @@
 	        new file:   resources/templates/front/detail-components/tab-panel.php
 	        renamed:    resources/templates/front/main_content.php -> resources/templates/front/home-components/main_content.php
 	        renamed:    resources/templates/front/sliders.php -> resources/templates/front/home-components/sliders.php
+
+## 12. Rendering data to detail page
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
+	        modified:   resources/config.php
+	        new file:   resources/database.php
+	        modified:   resources/templates/front/detail-components/image.php
