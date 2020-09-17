@@ -136,3 +136,17 @@
 	        modified:   public/index.php
 	        modified:   resources/functions.php
 	        modified:   resources/templates/front/main_content.php
+
+## 8. Rendering products from db to home page part 2
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
+	        modified:   public/index.php
+	        modified:   resources/functions.php
+	        modified:   resources/templates/front/main_content.php

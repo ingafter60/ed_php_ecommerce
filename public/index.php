@@ -24,7 +24,6 @@
             <!-- end Sliders -->
             <!-- Main Content -->
             <div class="row">
-               <?php get_products(); ?>
                <?php include(TEMPLATE_FRONT .DS. 'main_content.php' ); ?>
             </div>
             <!-- end Main Content -->
