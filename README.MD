@@ -61,3 +61,8 @@
 	  (use "git reset HEAD <file>..." to unstage)
 
 	        modified:   README.MD
+
+## 4. Rendering categories items from the db to the homepage
+
+	modified:   README.MD
+   modified:   resources/templates/front/categories.php
