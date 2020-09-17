@@ -35,3 +35,29 @@
 	        new file:   resources/templates/front/navbar.php
 	        new file:   resources/templates/front/scripts.php
 	        new file:   resources/templates/front/sliders.php
+
+## 3. Create categories table
+
+	CREATE TABLE `categories` (
+		`cat_id` int(11) NOT NULL AUTO_INCREMENT,
+		`cat_title` varchar(255) NOT NULL,
+		PRIMARY KEY (`cat_id`)
+	);
+
+	mysql> DESC categories;
+	+-----------+--------------+------+-----+---------+----------------+
+	| Field     | Type         | Null | Key | Default | Extra          |
+	+-----------+--------------+------+-----+---------+----------------+
+	| cat_id    | int(11)      | NO   | PRI | NULL    | auto_increment |
+	| cat_title | varchar(255) | NO   |     | NULL    |                |
+	+-----------+--------------+------+-----+---------+----------------+
+	2 rows in set (0.00 sec)
+
+	λ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
