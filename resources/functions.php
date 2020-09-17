@@ -68,3 +68,20 @@ echo $product;
 	}
 }
 
+// =============== GET CATEGORY FUNCTIONS ================
+
+// Get category
+function get_categories() {
+	$query = query("SELECT * FROM categories");
+	confirm($query);
+
+	while($row = fetch_array($query)) {
+		$categories_links = <<<DELIMETER
+		<a href='category.php?id={$row['cat_id']}' 
+			class='list-group-item'>{$row['cat_title']}</a>
+DELIMETER;
+
+echo $categories_links;
+
+    }
+}

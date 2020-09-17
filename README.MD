@@ -162,3 +162,17 @@
 
 	        modified:   README.MD
 	        modified:   resources/functions.php
+
+## 10. Rendering category page
+
+	λ git status
+	On branch master
+	Your branch is ahead of 'origin/master' by 1 commit.
+	  (use "git push" to publish your local commits)
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   README.MD
+	        modified:   resources/functions.php
+	        modified:   resources/templates/front/categories.php
